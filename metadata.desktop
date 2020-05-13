@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Quarter Snapping
+Comment=Snap with arrow keys: full, half or quarter screen
+Icon=dialog-tile-clones
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+
+X-KDE-PluginInfo-Author=Paul-Julien Vauthier
+X-KDE-PluginInfo-Email=pj.vauthier@gmail.com
+X-KDE-PluginInfo-Name=quarter-snapping
+X-KDE-PluginInfo-Version=0.1
+
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=
+X-KDE-ServiceTypes=KWin/Script,KCModule
+
+X-KDE-PluginKeyword=windows,snap,snapping
+
+Type=Service
