@@ -103,13 +103,10 @@ function onDown() {
 }
 
 function registerQuarterSnapShortcup(direction, callback) {
-    print('registerQuarterSnapShortcup ' + direction);
-    registerShortcut(
-        "Quarter Snap: " + direction,
-        "Quarter Snap: " + direction,
-        "Meta+" + direction,
-        callback
-    );
+    const name = "Quarter Snap: " + direction;
+    const keys = "Meta+" + direction;
+    print('registerQuarterSnapShortcup ' + direction + ' | ' + name + ' | ' + keys);
+    registerShortcut(name, name, keys, callback);
 }
 
 function debugClientSize(client) {
