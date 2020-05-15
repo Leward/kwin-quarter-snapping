@@ -14,6 +14,7 @@ function isLeft(client) {
 }
 
 function isRight(client) {
+    const workArea = workspace.clientArea(workspace.MaximizeArea, client);
     return looseEquals(client.geometry.x, workArea.width / 2)
         && client.geometry.y == 0
         && looseEquals(client.geometry.width, workArea.width / 2)
